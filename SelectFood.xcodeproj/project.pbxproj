@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		8E323C362743983400A20E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C352743983400A20E5A /* AppDelegate.swift */; };
 		8E323C382743983400A20E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C372743983400A20E5A /* SceneDelegate.swift */; };
-		8E323C3A2743983400A20E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C392743983400A20E5A /* ViewController.swift */; };
+		8E323C3A2743983400A20E5A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C392743983400A20E5A /* MainViewController.swift */; };
 		8E323C3D2743983400A20E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E323C3B2743983400A20E5A /* Main.storyboard */; };
 		8E323C3F2743983700A20E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E323C3E2743983700A20E5A /* Assets.xcassets */; };
 		8E323C422743983700A20E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E323C402743983700A20E5A /* LaunchScreen.storyboard */; };
 		8E323C4D2743983700A20E5A /* SelectFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C4C2743983700A20E5A /* SelectFoodTests.swift */; };
 		8E323C572743983700A20E5A /* SelectFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C562743983700A20E5A /* SelectFoodUITests.swift */; };
 		8E323C592743983700A20E5A /* SelectFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C582743983700A20E5A /* SelectFoodUITestsLaunchTests.swift */; };
+		8E323C6627439DAC00A20E5A /* MJNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C6527439DAC00A20E5A /* MJNaviViewController.swift */; };
+		8E323C682743A0D500A20E5A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C672743A0D500A20E5A /* SettingViewController.swift */; };
+		8E323C6B2743A2C800A20E5A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C6A2743A2C800A20E5A /* Header.swift */; };
+		8E323C6D2743A4BE00A20E5A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C6C2743A4BE00A20E5A /* UIColorExtension.swift */; };
+		8E323C6F2743A85F00A20E5A /* MJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C6E2743A85F00A20E5A /* MJBaseViewController.swift */; };
+		8E323C752744AB3D00A20E5A /* PopupApperanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C712744AB3D00A20E5A /* PopupApperanceProtocol.swift */; };
+		8E323C762744AB3D00A20E5A /* PopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C722744AB3D00A20E5A /* PopupPresentationController.swift */; };
+		8E323C772744AB3D00A20E5A /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C732744AB3D00A20E5A /* PopupController.swift */; };
+		8E323C782744AB3D00A20E5A /* PopupProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C742744AB3D00A20E5A /* PopupProtocol.swift */; };
+		8E323C7A2744AB6800A20E5A /* LuckyResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C792744AB6800A20E5A /* LuckyResultViewController.swift */; };
+		8E323C7C2744F75200A20E5A /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E323C7B2744F75200A20E5A /* UIImageExtension.swift */; };
+		FF162C4014082E980658176B /* Pods_SelectFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B00B3DACB4F5876BCF7976A /* Pods_SelectFood.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B00B3DACB4F5876BCF7976A /* Pods_SelectFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CD0074FA6B04DAB96038AA /* Pods-SelectFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectFood.debug.xcconfig"; path = "Target Support Files/Pods-SelectFood/Pods-SelectFood.debug.xcconfig"; sourceTree = "<group>"; };
 		8E323C322743983400A20E5A /* SelectFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E323C352743983400A20E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E323C372743983400A20E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E323C392743983400A20E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E323C392743983400A20E5A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E323C3C2743983400A20E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E323C3E2743983700A20E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E323C412743983700A20E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,18 @@
 		8E323C522743983700A20E5A /* SelectFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E323C562743983700A20E5A /* SelectFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFoodUITests.swift; sourceTree = "<group>"; };
 		8E323C582743983700A20E5A /* SelectFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E323C6527439DAC00A20E5A /* MJNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJNaviViewController.swift; sourceTree = "<group>"; };
+		8E323C672743A0D500A20E5A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8E323C6A2743A2C800A20E5A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		8E323C6C2743A4BE00A20E5A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8E323C6E2743A85F00A20E5A /* MJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJBaseViewController.swift; sourceTree = "<group>"; };
+		8E323C712744AB3D00A20E5A /* PopupApperanceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupApperanceProtocol.swift; sourceTree = "<group>"; };
+		8E323C722744AB3D00A20E5A /* PopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPresentationController.swift; sourceTree = "<group>"; };
+		8E323C732744AB3D00A20E5A /* PopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		8E323C742744AB3D00A20E5A /* PopupProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupProtocol.swift; sourceTree = "<group>"; };
+		8E323C792744AB6800A20E5A /* LuckyResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyResultViewController.swift; sourceTree = "<group>"; };
+		8E323C7B2744F75200A20E5A /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FAA2FF7B126390B42CC63E8F /* Pods-SelectFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectFood.release.xcconfig"; path = "Target Support Files/Pods-SelectFood/Pods-SelectFood.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF162C4014082E980658176B /* Pods_SelectFood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5172E241F58E043954ECFCBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B3DACB4F5876BCF7976A /* Pods_SelectFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E323C292743983400A20E5A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				8E323C4B2743983700A20E5A /* SelectFoodTests */,
 				8E323C552743983700A20E5A /* SelectFoodUITests */,
 				8E323C332743983400A20E5A /* Products */,
+				BA6FFD332A64F50C627EFF9A /* Pods */,
+				5172E241F58E043954ECFCBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +138,15 @@
 			children = (
 				8E323C352743983400A20E5A /* AppDelegate.swift */,
 				8E323C372743983400A20E5A /* SceneDelegate.swift */,
-				8E323C392743983400A20E5A /* ViewController.swift */,
+				8E323C392743983400A20E5A /* MainViewController.swift */,
+				8E323C6E2743A85F00A20E5A /* MJBaseViewController.swift */,
+				8E323C6527439DAC00A20E5A /* MJNaviViewController.swift */,
+				8E323C672743A0D500A20E5A /* SettingViewController.swift */,
+				8E323C792744AB6800A20E5A /* LuckyResultViewController.swift */,
+				8E323C6C2743A4BE00A20E5A /* UIColorExtension.swift */,
+				8E323C7B2744F75200A20E5A /* UIImageExtension.swift */,
+				8E323C6A2743A2C800A20E5A /* Header.swift */,
+				8E323C702744AB3D00A20E5A /* PopupController */,
 				8E323C3B2743983400A20E5A /* Main.storyboard */,
 				8E323C3E2743983700A20E5A /* Assets.xcassets */,
 				8E323C402743983700A20E5A /* LaunchScreen.storyboard */,
@@ -127,6 +172,26 @@
 			path = SelectFoodUITests;
 			sourceTree = "<group>";
 		};
+		8E323C702744AB3D00A20E5A /* PopupController */ = {
+			isa = PBXGroup;
+			children = (
+				8E323C712744AB3D00A20E5A /* PopupApperanceProtocol.swift */,
+				8E323C722744AB3D00A20E5A /* PopupPresentationController.swift */,
+				8E323C732744AB3D00A20E5A /* PopupController.swift */,
+				8E323C742744AB3D00A20E5A /* PopupProtocol.swift */,
+			);
+			path = PopupController;
+			sourceTree = "<group>";
+		};
+		BA6FFD332A64F50C627EFF9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59CD0074FA6B04DAB96038AA /* Pods-SelectFood.debug.xcconfig */,
+				FAA2FF7B126390B42CC63E8F /* Pods-SelectFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E323C5C2743983700A20E5A /* Build configuration list for PBXNativeTarget "SelectFood" */;
 			buildPhases = (
+				189B016FEEA05CBD4D6C5EF8 /* [CP] Check Pods Manifest.lock */,
 				8E323C2E2743983400A20E5A /* Sources */,
 				8E323C2F2743983400A20E5A /* Frameworks */,
 				8E323C302743983400A20E5A /* Resources */,
+				7039722EA98856D4D6BEDB0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +320,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		189B016FEEA05CBD4D6C5EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelectFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7039722EA98856D4D6BEDB0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelectFood/Pods-SelectFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelectFood/Pods-SelectFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelectFood/Pods-SelectFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E323C2E2743983400A20E5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E323C3A2743983400A20E5A /* ViewController.swift in Sources */,
+				8E323C7A2744AB6800A20E5A /* LuckyResultViewController.swift in Sources */,
+				8E323C682743A0D500A20E5A /* SettingViewController.swift in Sources */,
+				8E323C772744AB3D00A20E5A /* PopupController.swift in Sources */,
+				8E323C6D2743A4BE00A20E5A /* UIColorExtension.swift in Sources */,
+				8E323C3A2743983400A20E5A /* MainViewController.swift in Sources */,
+				8E323C6627439DAC00A20E5A /* MJNaviViewController.swift in Sources */,
+				8E323C762744AB3D00A20E5A /* PopupPresentationController.swift in Sources */,
+				8E323C752744AB3D00A20E5A /* PopupApperanceProtocol.swift in Sources */,
 				8E323C362743983400A20E5A /* AppDelegate.swift in Sources */,
+				8E323C7C2744F75200A20E5A /* UIImageExtension.swift in Sources */,
+				8E323C782744AB3D00A20E5A /* PopupProtocol.swift in Sources */,
+				8E323C6B2743A2C800A20E5A /* Header.swift in Sources */,
+				8E323C6F2743A85F00A20E5A /* MJBaseViewController.swift in Sources */,
 				8E323C382743983400A20E5A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,55 +554,65 @@
 		};
 		8E323C5D2743983700A20E5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CD0074FA6B04DAB96038AA /* Pods-SelectFood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL24X2CRR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SelectFood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "抽个奖";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "APP想要获取您的位置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = minjing.lin.SelectFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydq.food;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8E323C5E2743983700A20E5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA2FF7B126390B42CC63E8F /* Pods-SelectFood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL24X2CRR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SelectFood/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "抽个奖";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "APP想要获取您的位置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = minjing.lin.SelectFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydq.food;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
